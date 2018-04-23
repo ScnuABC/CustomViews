@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dendy.view.activities.MainActivity"
+    android:id="@+id/root">
+    <Button
+    android:id="@+id/customseekBar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="CustomSeekBar"
+    android:textSize="18sp"
+    android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/Q5ChannelBalanceSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Q5ChannelBalanceSeekBar"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@id/customseekBar"/>
+    <Button
+        android:id="@+id/VolumeView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="VolumeView"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@id/Q5ChannelBalanceSeekBar"/>
+    <Button
+        android:id="@+id/M7VolumnView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="M7VolumnView"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@id/VolumeView"/>
+
+</RelativeLayout>
