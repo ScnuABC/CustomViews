@@ -30,4 +30,10 @@ public class CustomSeekBarActivity extends Activity {
             }
         });
     }
+
+
+
+    public void test(){
+
+    }
 }
